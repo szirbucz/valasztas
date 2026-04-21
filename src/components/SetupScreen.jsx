@@ -57,7 +57,7 @@ export default function SetupScreen({ onStart }) {
           </div>
           <div className="info-item">
             <span className="info-icon">🏆</span>
-            <span>Condorcet: az nyer, aki mindenki mással szemben többséget szerez</span>
+            <span>Rangsorolásos: az nyer, aki mindenki mással szemben többséget szerez</span>
           </div>
         </div>
 

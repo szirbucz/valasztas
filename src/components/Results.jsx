@@ -99,7 +99,7 @@ export default function Results({ voters, allFoods }) {
           <>
             ⚠️ Különböző győztes!&nbsp;
             Egyválasztásos: <strong>{singleWinner}</strong>&nbsp;·&nbsp;
-            Condorcet: <strong>{condorcetTop?.food}</strong>
+            Rangsorolásos: <strong>{condorcetTop?.food}</strong>
           </>
         )}
       </div>
@@ -125,7 +125,7 @@ export default function Results({ voters, allFoods }) {
 
         <div className="result-panel">
           <div className="panel-header panel-condorcet">
-            <h2>🏆 Condorcet módszer</h2>
+            <h2>🏆 Rangsorolásos szavazás</h2>
             <p>Az nyeri, aki páros összevetésben mindenkit ver</p>
           </div>
           <div className="result-list">
@@ -140,7 +140,7 @@ export default function Results({ voters, allFoods }) {
             ))}
             {!condorcetWinner && (
               <div className="paradox-note">
-                ⚠️ Condorcet-paradoxon: nincs egyértelmű győztes
+                ⚠️ Paradoxon: nincs egyértelmű győztes
               </div>
             )}
           </div>
